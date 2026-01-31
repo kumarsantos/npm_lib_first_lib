@@ -1,23 +1,23 @@
-# React Toast Popup
+# Npm Lib Toast
 
-React Toast Popup is a simple and customizable toast notification component for React applications.
+Npm Lib Toast is a simple and customizable toast notification component for React applications.
 
 ## Installation
 
-You can install React Toast Popup via npm:
+You can install Npm Lib Toast via npm:
 
 ```jsx
-npm install react-toast-popup
+npm install npm_lib_toast
 ```
 
 ## Usage
 
-To use React Toast Popup in your React application, follow these steps:
+To use Npm Lib Toast in your React application, follow these steps:
 
 Import the useNotification hook and necessary styles in your component:
 
 ```jsx
-import useNotification from "react-toast-popup";
+import useNotification from "npm_lib_toast";
 ```
 
 Initialize the useNotification hook with your preferred position:
@@ -93,11 +93,11 @@ The triggerNotification function accepts an object of type NotificationProps, wh
 
 ## Example
 
-Here's a basic example of how to use React Toast Popup:
+Here's a basic example of how to use Npm Lib Toast:
 
 ```jsx
 import React from "react";
-import useNotification from "react-toast-popup";
+import useNotification from "npm_lib_toast";
 
 function App() {
   const { NotificationComponent, triggerNotification } =
